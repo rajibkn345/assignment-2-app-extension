@@ -20,29 +20,19 @@ This app template does little more than install the CLI and scaffold a resposito
 1. You must [create a Shopify partner account](https://partners.shopify.com/signup) if you don’t have one.
 1. You must create a store for testing if you don't have one, either a [development store](https://help.shopify.com/en/partners/dashboard/development-stores#create-a-development-store) or a [Shopify Plus sandbox store](https://help.shopify.com/en/partners/dashboard/managing-stores/plus-sandbox-store).
 
-### Installing the template
+### changes the shopify.app.toml
 
-This template can be installed using your preferred package manager:
+client_id = "your_client_id"
+dev_store_url = "your_store_url"
 
-Using yarn:
+### cloning the repo
 
-```shell
-yarn create @shopify/app
-```
+git clone <url>
 
-Using npm:
+### Installing the packages
 
-```shell
-npm init @shopify/app@latest
-```
+npm install
 
-Using pnpm:
-
-```shell
-pnpm create @shopify/app@latest
-```
-
-This will clone the template and install the required dependencies.
 
 #### Local Development
 
@@ -70,9 +60,4 @@ pnpm run dev
 
 Open the URL generated in your console. Once you grant permission to the app, you can start development (such as generating extensions).
 
-## Developer resources
 
-- [Introduction to Shopify apps](https://shopify.dev/docs/apps/getting-started)
-- [App authentication](https://shopify.dev/docs/apps/auth)
-- [Shopify CLI](https://shopify.dev/docs/apps/tools/cli)
-- [Shopify API Library documentation](https://github.com/Shopify/shopify-api-js#readme)
