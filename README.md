@@ -60,4 +60,12 @@ pnpm run dev
 
 Open the URL generated in your console. Once you grant permission to the app, you can start development (such as generating extensions).
 
+### use the block
+
+-> open theme
+-> click on customize 
+-> Select the block
+-> click on translate
+-> use the block anywhere by clicking the checkbox of translate 
+
 
