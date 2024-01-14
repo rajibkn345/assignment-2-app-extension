@@ -1,8 +1,8 @@
-{% if block.settings.translate == true %}
+{% if section.settings.translate == true %}
     <div id="google_translate_element"></div>
   {% endif %}
   
-  {% if block.settings.translate == true %}
+  {% if section.settings.translate == true %}
     <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
@@ -16,7 +16,7 @@
   {% schema %}
   {
     "name": "translator",
-    "target": "block",
+    "target": "section",
     "settings": [
       {
         "type": "checkbox",
